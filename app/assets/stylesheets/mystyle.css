@@ -1,0 +1,70 @@
+body {
+  background-color: #696969;
+  }
+  legend {
+    font-size: 38px;
+    font-weight: bold;
+    color: #00BFFF;
+  }
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    color: #00BFFF
+  }
+  h3 {
+    color: #00BFFF;
+  }
+  .slogan {
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+  }
+  .logo{
+    text-indent: -99999px;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+  }
+  h4 {
+    color: #00BFFF;
+  }
+
+  td {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    text-align: right;
+    color: #00BFFF;
+  }
+  p {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #00FA9A;
+  }
+  .submit_button {
+    background: #3498db ;
+    background-image: -webkit-linear-gradient(top, #3498db , #2980b9 );
+    background-image: -moz-linear-gradient(top, #3498db , #2980b9 );
+    background-image: -o-linear-gradient(top, #3498db , #2980b9 );
+    background-image: -ms-linear-gradient(top, #3498db , #2980b9 );
+    background-image: linear-gradient(to bottom, #3498db , #2980b9 );
+    -moz-border-radius: 28;
+    -webkit-border-radius: 28;
+    border-radius: 50px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .submit_button:hover {
+    background: #3cb0fd ;
+    background-image: -webkit-linear-gradient(top, #3cb0fd , #3498db );
+    background-image: -moz-linear-gradient(top, #3cb0fd , #3498db );
+    background-image: -ms-linear-gradient(top, #3cb0fd , #3498db );
+    background-image: -o-linear-gradient(top, #3cb0fd , #3498db );
+    background-image: linear-gradient(to bottom, #3cb0fd , #3498db );
+    text-decoration: none;
+  }

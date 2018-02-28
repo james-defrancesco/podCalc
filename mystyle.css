@@ -1,0 +1,32 @@
+<head>
+link rel="stylesheet" type="text/css" href="mystyle.css">
+  <title>Pod Calc</title>
+  <style type="text/css">
+
+
+    body {
+      background-color: #DCDCDC }
+
+    h1 {
+      font-weight: bold;
+      text-align: center;
+      color: #1E90FF
+    }
+    h2 {
+      font-weight: normal;
+      text-align: center;
+      color: #1E90FF
+    }
+    label {
+      font-weight: bold;
+
+      text-align: right;
+      color: #1E90FF
+    }
+    p {
+      font-weight: bold;
+      text-align: center;
+      color: red
+    }
+    </style>
+</head>

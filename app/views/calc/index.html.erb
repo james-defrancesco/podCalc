@@ -1,0 +1,38 @@
+<h1>***your company here***</h1>
+
+<legend>Pod Calc</legend>
+<h3>This tool helps estimate your potential annual gross ad sales for your
+  podcast!</h3>
+<h4 class="instructions">Enter the information below.</h4>
+<table>
+<%= form_tag '/index' do -%>
+<tr>
+  <td>
+    <label>Downloads per Episode</label>
+  </td>
+ <td>
+ <%= text_field(:calc, :dlpe, :required => true) %>
+ </td>
+</tr>
+<tr>
+ <td><label>Pre-roll (30 second ads)</label></td>
+ <td><%= text_field(:calc, :prpe, :required => true) %></td>
+</tr>
+<tr>
+ <td><label>Mid-roll(60 second ads)</label></td>
+ <td><%= text_field(:calc, :mrpe, :required => true) %></td>
+</tr>
+<tr>
+ <td><label>Episodes per Year</label></td>
+ <td><%= text_field(:calc, :epy, :required => true) %></td>
+</tr>
+<tr>
+ <td colspan=2><%= submit_tag "Calculator-ize", class: "submit_button" %></td>
+<%- end %>
+</tr>
+</table>
+
+<%- unless @answer == '' %>
+  <p>Possible Income = $<%= @answer[0]%> - $<%= @answer[1] %> per year! </p>
+
+<% end %>
